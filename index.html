@@ -1,52 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>to-do app</title>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&family=Nunito&family=Poppins:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-      <div class="container">
-<h1 class="title">To-Do App</h1>
-<div class="add-elements">
-<input type="text" class="input" id="add" placeholder="What have you planned?">
-<button class="btn" id="btn">Add</button>
+    <div class="container">
+      <h1 class="title">To-do app</h1>
 
-
-</div>
-<div class="element-group">
-<ul class="element-group__list" id="list">
-
-<li class="element-group__list__item">buy some milk</li>
-<li class="element-group__list__item">buy some milk</li>
-
-</ul>
-
-
-
-</div>
-
-
-
-
-
-
-
-
+      <div class="add-elements">
+        <input
+          class="input"
+          id="add"
+          type="text"
+          placeholder="add an element"
+        />
+        <button class="btn" id="btn">Add</button>
       </div>
 
+      <div class="element-group">
+        <ul class="element-group__list" id="list">
+          <li class="element-group__list__item">drink water</li>
+          <li class="element-group__list__item">do homework</li>
+        </ul>
+      </div>
+    </div>
 
-
-
-
-
+    <script src="./app.js"></script>
   </body>
 </html>
